@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказ серверов Discord и Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" data-aos="fade-up">
+        <div class="container">
+            <h1>Создайте свой идеальный сервер уже сегодня!</h1>
+            <p>Профессиональные решения для Discord и Minecraft сообществ.</p>
+            <a href="#services" class="btn">Узнать больше</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-aos="fade-up">Наши услуги</h2>
+            <div class="service-cards">
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Discord Сервер</h3>
+                    <p>Создайте уникальное сообщество с профессиональными ботами, модерацией и кастомным дизайном. Мы поможем вам настроить роли, каналы и автоматизацию.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Minecraft Сервер</h3>
+                    <p>Мощные серверы с поддержкой плагинов, модов и мини-игр. Мы предлагаем настройку конфигурации, оптимизацию и техническую поддержку 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2 data-aos="fade-up">Оформить заказ</h2>
+            <form id="orderForm" data-aos="fade-up">
+                <label for="serviceName">Выберите услугу:</label>
+                <select id="serviceName" required>
+                    <option value="discord">Discord Сервер</option>
+                    <option value="minecraft">Minecraft Сервер</option>
+                </select>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" placeholder="Введите ваш email" required>
+
+                <label for="details">Детали заказа:</label>
+                <textarea id="details" placeholder="Расскажите о ваших требованиях..." required></textarea>
+
+                <button type="submit" class="btn">Отправить заявку</button>
+            </form>
+            <p class="contact-info">Или свяжитесь с нами через Discord или Telegram:</p>
+            <div class="social-icons">
+                <a href="https://discord.gg/yourserver" target="_blank" class="icon discord">Discord</a>
+                <a href="https://t.me/yourchannel" target="_blank" class="icon telegram">Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 data-aos="fade-up">Часто задаваемые вопросы</h2>
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <h3>Как долго обрабатывается заказ?</h3>
+                <p>Обычно заказ обрабатывается в течение 24 часов после отправки заявки.</p>
+            </div>
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <h3>Какие способы оплаты доступны?</h3>
+                <p>Мы принимаем оплату через PayPal, банковские карты и криптовалюты.</p>
+            </div>
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <h3>Могу ли я изменить конфигурацию сервера?</h3>
+                <p>Да, вы можете настроить сервер под свои нужды.</p>
+            </div>
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <h3>Есть ли техническая поддержка?</h3>
+                <p>Да, наша команда поддержки работает 24/7.</p>
+            </div>
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>Можно ли отменить заказ?</h3>
+                <p>Да, вы можете отменить заказ в течение 24 часов.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Сервис заказа серверов. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
